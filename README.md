@@ -2,6 +2,8 @@
 
 This project implements a machine learning-based chatbot using Python. The chatbot is designed to understand user queries and provide appropriate responses based on predefined intents.
 
+![Chatbot Screenshot](https://github.com/VipinMI2024/Chat-Bot/blob/main/Screenshot%202025-05-19%20200235.png)
+
 ## Project Structure
 
 ```
