@@ -1,0 +1,111 @@
+{
+  "intents": [
+    {
+      "intent": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "How are you?",
+        "Is anyone there?",
+        "Good day",
+        "Hey",
+        "What's up?",
+        "Yo"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I do for you?",
+        "Greetings! How may I help you?",
+        "Hey! What can I help you with?"
+      ]
+    },
+    {
+      "intent": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Have a nice day",
+        "Catch you later",
+        "Farewell",
+        "See ya"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Take care!",
+        "Bye! Looking forward to our next chat!",
+        "Farewell! Stay safe."
+      ]
+    },
+    {
+      "intent": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks for your help",
+        "Much appreciated",
+        "Thanks a lot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "I'm glad I could help!",
+        "Anytime! Let me know if you need anything else.",
+        "No problem at all!"
+      ]
+    },
+    {
+      "intent": "noanswer",
+      "patterns": [],
+      "responses": [
+        "I'm sorry, I don't understand.",
+        "Could you please rephrase that?",
+        "I'm not sure how to respond to that.",
+        "Sorry, I didn't get that. Can you say it differently?"
+      ]
+    },
+    {
+      "intent": "bot_info",
+      "patterns": [
+        "Who are you?",
+        "What can you do?",
+        "Tell me about yourself",
+        "Are you a bot?",
+        "What is your name?"
+      ],
+      "responses": [
+        "I'm a VIPbot here to assist you with your queries.",
+        "I'm your friendly assistant bot, ready to help!",
+        "I am a bot created to answer your questions."
+      ]
+    },
+    {
+      "intent": "hours",
+      "patterns": [
+        "What are your hours?",
+        "When are you open?",
+        "What is your working time?",
+        "Are you available now?"
+      ],
+      "responses": [
+        "I'm available 24/7 to help you!",
+        "I operate all day, every day.",
+        "Always here to assist you, no matter the time."
+      ]
+    },
+    {
+      "intent": "help",
+      "patterns": [
+        "Can you help me?",
+        "I need assistance",
+        "Help me please",
+        "What can you do for me?"
+      ],
+      "responses": [
+        "Sure! How can I assist you today?",
+        "I'm here to help! What do you need?",
+        "Tell me what you need assistance with."
+      ]
+    }
+  ]
+}
